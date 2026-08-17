@@ -3,7 +3,7 @@
 > The official, auto-generated awesome list for the DeepSeek Harness Cordis plugin ecosystem —
 > curated by [cordis.run](https://cordis.run), the DSH Cordis plugin marketplace.
 
-**328 plugins** · updated daily from the [cordis.run open data index](https://github.com/web-casa/DeepSeek-Harness-Marketplace/blob/main/data/plugins.json).
+**328 plugins** · curated from the [cordis.run open plugin index](data/plugins.json).
 
 Every listed plugin has a **one-line install command** and a **security scan status** on its cordis.run page.
 
@@ -397,20 +397,19 @@ Every listed plugin has a **one-line install command** and a **security scan sta
 
 - [DeepSeek Harness](https://github.com/deepseek-ai/DeepSeek-Harness) — the host application for cordis plugins.
 - [cordis.run](https://cordis.run) — search, install commands, security scans, and plugin claiming.
-- [DeepSeek-Harness-Marketplace](https://github.com/web-casa/DeepSeek-Harness-Marketplace) — the open-source marketplace codebase.
 
 ## Community
 
 - [dsh-plugin topic on GitHub](https://github.com/topics/dsh-plugin) — plugin repositories on GitHub.
 - [Submit a plugin](https://cordis.run/plugins/submit) — list your plugin on cordis.run.
-- [Report a security issue](https://github.com/web-casa/DeepSeek-Harness-Marketplace/security) — responsible disclosure.
+- [Report a security issue](https://github.com/web-casa/Awesome-DeepSeek-Harness-Plugins/security) — responsible disclosure.
 
 ---
 
 ## How this list is generated
 
-This README is auto-generated from [`data/plugins.json`](https://github.com/web-casa/DeepSeek-Harness-Marketplace/blob/main/data/plugins.json)
-by a scheduled workflow. Each plugin entry links to its cordis.run page where you can find the install command,
+This README is auto-generated from [`data/plugins.json`](data/plugins.json) by the cordis.run team.
+Each plugin entry links to its cordis.run page where you can find the install command,
 security scan report, and bilingual setup guides.
 
 Unlike community-maintained indexes, every entry here is **verified against the npm registry and checked for a valid `dsh.bundle` declaration** before listing.
