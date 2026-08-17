@@ -396,6 +396,7 @@ and listed on [cordis.run](https://cordis.run).
 
 ---
 
+## Tutorials & Guides
 
 - [Getting started with cordis.run](https://cordis.run/guides) — install, configure and submit DeepSeek Harness plugins.
 - [DeepSeek Harness plugin development guide](https://cordis.run/guides) — how to build a `dsh.bundle` Cordis plugin for DeepSeek Harness.
