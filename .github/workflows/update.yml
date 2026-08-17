@@ -1,0 +1,45 @@
+name: Update Plugin Index
+
+on:
+  schedule:
+    # 每天 03:17 UTC —— 拉取主仓库 data/plugins.json 的最新版本并重新生成 README。
+    # 注意：主仓库的 data/plugins.json 需要由生产环境先执行 pnpm plugins:export-data 更新。
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-plugin-index
+  cancel-in-progress: false
+
+jobs:
+  update:
+    name: Regenerate README from marketplace data
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Download latest plugins.json
+        run: |
+          curl -fsSL \
+            -H "Accept: application/vnd.github.raw+json" \
+            -o data/plugins.json \
+            https://api.github.com/repos/web-casa/DeepSeek-Harness-Marketplace/contents/data/plugins.json
+
+      - name: Regenerate README
+        run: node scripts/generate.mjs
+
+      - name: Commit and push if changed
+        run: |
+          if ! git diff --quiet README.md data/plugins.json; then
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add README.md data/plugins.json
+            git commit -m "chore(data): sync plugin index $(date -u +%Y-%m-%d)"
+            git push
+          else
+            echo "No changes"
+          fi
