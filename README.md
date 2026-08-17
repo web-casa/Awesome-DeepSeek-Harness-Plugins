@@ -1,13 +1,22 @@
-# Awesome DSH Cordis Plugins
+# Awesome DeepSeek Harness Plugins
 
-> The official, auto-generated awesome list for the DeepSeek Harness Cordis plugin ecosystem —
-> curated by [cordis.run](https://cordis.run), the DSH Cordis plugin marketplace.
+> The official, auto-generated awesome list for the **DeepSeek Harness (DSH)** Cordis plugin ecosystem —
+> curated by [cordis.run](https://cordis.run), the DeepSeek Harness plugin marketplace.
 
-**328 plugins** · curated from the [cordis.run open plugin index](data/plugins.json).
+**328 DeepSeek Harness plugins** · curated from the [cordis.run open plugin index](data/plugins.json).
 
-Every listed plugin has a **one-line install command** and a **security scan status** on its cordis.run page.
+Every listed DeepSeek Harness plugin has a **one-line install command** and a **security scan status** on its cordis.run page.
+
+[中文版](README.zh.md) | English
 
 ---
+
+## What is DeepSeek Harness?
+
+**DeepSeek Harness (DSH)** is an agent harness for DeepSeek models. Its plugin system — **Cordis** —
+lets you install npm packages that declare a `dsh.bundle` and patch them into a DSH profile.
+This list indexes **DeepSeek Harness Cordis plugins** that are verified against the npm registry
+and listed on [cordis.run](https://cordis.run).
 
 ## Contents
 
@@ -24,9 +33,9 @@ Every listed plugin has a **one-line install command** and a **security scan sta
 
 ## Dev Assistants
 
-> Coding, code review, SQL and developer workflow plugins. *(75 plugins)*
+> Coding, code review, SQL and developer workflow plugins for DeepSeek Harness. *(75 plugins)*
 
-| Plugin | Description | On cordis.run |
+| DeepSeek Harness Plugin | Description | On cordis.run |
 |---|---|---|
 | [dsh-cc-tui](https://github.com/ccch1mneyyy/dsh-cc-tui) | Claude Code style interactive TUI front door for DeepSeek Harness agents, built on the ported Ink core. | [🔗](https://cordis.run/plugins/dsh-cc-tui) |
 | [dsh-at-file](https://github.com/omdsh-dev/dsh-at-file) | Codex-style @path references for the DeepSeek Harness web GUI: search workspace paths without injecting file content | [🔗](https://cordis.run/plugins/dsh-at-file) |
@@ -106,9 +115,9 @@ Every listed plugin has a **one-line install command** and a **security scan sta
 
 ## Workflow & Automation
 
-> Multi-step orchestration, task scheduling and agent workflow plugins. *(37 plugins)*
+> Multi-step orchestration, task scheduling and agent workflow plugins for DeepSeek Harness. *(37 plugins)*
 
-| Plugin | Description | On cordis.run |
+| DeepSeek Harness Plugin | Description | On cordis.run |
 |---|---|---|
 | [@dsh-external/workflow](https://github.com/icetomoyo/dsh_workflow) | KodaX-parity dynamic workflow harness for DeepSeek Harness | [🔗](https://cordis.run/plugins/dsh-external-workflow) |
 | [@omdsh-dev/dsh-annotation](https://github.com/omdsh-dev/dsh-annotation) | DSH Web selection-annotation plugin: select assistant text, annotate (optional), and press Enter to send the annotati… | [🔗](https://cordis.run/plugins/omdsh-dev-dsh-annotation) |
@@ -150,9 +159,9 @@ Every listed plugin has a **one-line install command** and a **security scan sta
 
 ## Themes & UI
 
-> Terminal themes, UI enhancements and display plugins. *(90 plugins)*
+> Terminal themes, UI enhancements and display plugins for DeepSeek Harness. *(90 plugins)*
 
-| Plugin | Description | On cordis.run |
+| DeepSeek Harness Plugin | Description | On cordis.run |
 |---|---|---|
 | [dsh-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) | DSH web plugin: a VSCode-like right sidebar (explorer / editor / terminal / git / browser), isolated per conversation… | [🔗](https://cordis.run/plugins/dsh-better-sidebar) |
 | [@dsh-external/dsh-ads](https://github.com/Nagi-ovo/dsh-ads) | DSH ad-infestation plugin: localized Chinese portal ads and English scam-ad parody, with fake pop-ups, a jackpot whee… | [🔗](https://cordis.run/plugins/dsh-external-dsh-ads) |
@@ -223,7 +232,7 @@ Every listed plugin has a **one-line install command** and a **security scan sta
 | [dsh-local-filetree](https://github.com/Mongfayi/dsh-local-filetree) | File tree panel for the DSH Web UI: the right details column shows the current session workspace tree (lazy, read-only). | [🔗](https://cordis.run/plugins/dsh-local-filetree) |
 | [dsh-tui](https://github.com/orriduck/dsh-tui) | A small, session-aware terminal UI for DeepSeek Harness | [🔗](https://cordis.run/plugins/dsh-tui) |
 | [@deepseek-ai/dsh-client-ui-skin-miku](https://github.com/stushansusu/dsh-miku-skin) | 初音未来（Hatsune Miku）主题皮肤：蓝紫洋红渐变标题栏与按钮、半透明毛玻璃面板与输入框、可自定义背景图，用于 DeepSeek Harness (DSH) Web GUI | [🔗](https://cordis.run/plugins/deepseek-ai-dsh-client-ui-skin-miku) |
-| [@dsh-plugin/dsh-review-loop](https://github.com/wuxiangru915/dsh-review-loop) | A DSH Cordis plugin. | [🔗](https://cordis.run/plugins/dsh-plugin-dsh-review-loop) |
+| [@dsh-plugin/dsh-review-loop](https://github.com/wuxiangru915/dsh-review-loop) | A DeepSeek Harness Cordis plugin. | [🔗](https://cordis.run/plugins/dsh-plugin-dsh-review-loop) |
 | [dsh-atuin](https://github.com/RealAlexandreAI/dsh-atuin) | DeepSeek Harness plugin: every user prompt you type (in the web UI) is appended to your atuin shell history, so it sh… | [🔗](https://cordis.run/plugins/dsh-atuin) |
 | [dsh-cloudflare-browser-run](https://github.com/RealAlexandreAI/dsh-cloudflare-browser-run) | DeepSeek Harness plugin: web browsing tools (markdown / screenshot / pdf) powered by Cloudflare Browser Run — real he… | [🔗](https://cordis.run/plugins/dsh-cloudflare-browser-run) |
 | [dsh-plugin-code-review](https://github.com/YYTbit/dsh-plugin-code-review) | Structured code review skill for DeepSeek Harness -- bugs, security, performance, style | [🔗](https://cordis.run/plugins/dsh-plugin-code-review) |
@@ -247,9 +256,9 @@ Every listed plugin has a **one-line install command** and a **security scan sta
 
 ## Data Integration
 
-> Connect DSH to external data sources, APIs and services. *(8 plugins)*
+> Connect DeepSeek Harness to external data sources, APIs and services. *(8 plugins)*
 
-| Plugin | Description | On cordis.run |
+| DeepSeek Harness Plugin | Description | On cordis.run |
 |---|---|---|
 | [@nanmicoder/dsh-agent-teams](https://github.com/NanmiCoder/dsh-agent-teams) | AgentTeams for DeepSeek Harness: multi-agent team collaboration (captain, members, tasks with dependencies, messaging… | [🔗](https://cordis.run/plugins/dsh-agent-teams) |
 | [dsh-balance-monitor](https://github.com/jelly-000/dsh-balance-monitor) | DeepSeek account balance, remaining-ratio bar, and today's spend in the dsh sidebar footer. | [🔗](https://cordis.run/plugins/dsh-balance-monitor) |
@@ -262,9 +271,9 @@ Every listed plugin has a **one-line install command** and a **security scan sta
 
 ## Productivity
 
-> Utilities that make everyday DSH usage faster and easier. *(118 plugins)*
+> Utilities that make everyday DeepSeek Harness usage faster and easier. *(118 plugins)*
 
-| Plugin | Description | On cordis.run |
+| DeepSeek Harness Plugin | Description | On cordis.run |
 |---|---|---|
 | [@liustack/modlens](https://github.com/liustack/modlens) | Plug-in vision for text-only LLMs, powered by the free Antigravity CLI | [🔗](https://cordis.run/plugins/liustack-modlens) |
 | [whale-girl](https://github.com/vlln/whale-girl) | DSH Web GUI 内的桌面宠物（QQ 宠物形态） | [🔗](https://cordis.run/plugins/whale-girl) |
@@ -387,32 +396,31 @@ Every listed plugin has a **one-line install command** and a **security scan sta
 
 ---
 
-## Tutorials & Guides
 
-- [Getting started with cordis.run](https://cordis.run/guides) — install, configure and submit plugins.
-- [DSH plugin development guide](https://cordis.run/guides) — how to build a `dsh.bundle` plugin.
-- [Preset importing guide](https://cordis.run/guides) — install `.dshpreset` agent presets safely.
+- [Getting started with cordis.run](https://cordis.run/guides) — install, configure and submit DeepSeek Harness plugins.
+- [DeepSeek Harness plugin development guide](https://cordis.run/guides) — how to build a `dsh.bundle` Cordis plugin for DeepSeek Harness.
+- [Preset importing guide](https://cordis.run/guides) — install `.dshpreset` agent presets for DeepSeek Harness safely.
 
 ## Tools
 
-- [DeepSeek Harness](https://github.com/deepseek-ai/DeepSeek-Harness) — the host application for cordis plugins.
-- [cordis.run](https://cordis.run) — search, install commands, security scans, and plugin claiming.
+- [DeepSeek Harness](https://github.com/deepseek-ai/DeepSeek-Harness) — the host application for Cordis plugins.
+- [cordis.run](https://cordis.run) — the DeepSeek Harness plugin marketplace: search, install commands, security scans, and plugin claiming.
 
 ## Community
 
-- [dsh-plugin topic on GitHub](https://github.com/topics/dsh-plugin) — plugin repositories on GitHub.
-- [Submit a plugin](https://cordis.run/plugins/submit) — list your plugin on cordis.run.
+- [dsh-plugin topic on GitHub](https://github.com/topics/dsh-plugin) — DeepSeek Harness Cordis plugin repositories on GitHub.
+- [Submit a plugin](https://cordis.run/plugins/submit) — list your DeepSeek Harness plugin on cordis.run.
 - [Report a security issue](https://github.com/web-casa/Awesome-DeepSeek-Harness-Plugins/security) — responsible disclosure.
 
 ---
 
 ## How this list is generated
 
-This README is auto-generated from [`data/plugins.json`](data/plugins.json) by the cordis.run team.
-Each plugin entry links to its cordis.run page where you can find the install command,
+This DeepSeek Harness plugin list is auto-generated from [`data/plugins.json`](data/plugins.json) by the cordis.run team.
+Each DeepSeek Harness plugin entry links to its cordis.run page where you can find the install command,
 security scan report, and bilingual setup guides.
 
-Unlike community-maintained indexes, every entry here is **verified against the npm registry and checked for a valid `dsh.bundle` declaration** before listing.
+Unlike community-maintained indexes, every DeepSeek Harness plugin here is **verified against the npm registry and checked for a valid `dsh.bundle` declaration** before listing.
 
 ## License
 
