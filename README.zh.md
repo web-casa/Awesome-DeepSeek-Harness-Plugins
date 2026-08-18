@@ -397,7 +397,7 @@
 | [dsh-archived-sessions](https://github.com/hashdiana/dsh-archived-sessions) | 在设置面板中新增“已归档会话”分区：列出被归档的会话（默认在侧边栏不可见），点击即可重新打开 | [🔗](https://cordis.run/plugins/dsh-archived-sessions) |
 | [dsh-conversation-indicator](https://github.com/smanx/dsh-conversation-indicator) | DeepSeek Harness 网页 GUI 的对话指示器：对话记录滚动条上的可点击标记，可跳转到相应的消息或轮次 | [🔗](https://cordis.run/plugins/dsh-conversation-indicator) |
 | [dsh-skill-manager](https://github.com/bitterSmilezzz/dsh-skill-manager) | dsh 网页 GUI 的界面内技能管理器：设置中的顶级“技能”入口（可移入“插件”区域），列出所有已安装技能（名称、描述、模型/用户调用类型、源根目录），… | [🔗](https://cordis.run/plugins/dsh-skill-manager) |
-| [dsh-cost-guard](https://github.com/sixtysevenlf/dsh-cost-guard) | DeepSeek 成本守卫插件：按官方峰谷分级核算会话成本、¥ 预算守卫（超支近场收敛引导）、收敛/深度/错峰引导注入、峰谷感知错峰队列（空闲时段自动执行） | [🔗](https://cordis.run/plugins/dsh-cost-guard) |
+| [dsh-cost-guard](https://github.com/sixtysevenlf/dsh-cost-guard) | DeepSeek 成本守卫插件：官方峰谷费率核算会话成本；¥ 预算硬上限（花到即停、不再计费）；自动成本路由（按 复杂度×峰谷×预算余量 选 深度/收敛/… | [🔗](https://cordis.run/plugins/dsh-cost-guard) |
 
 ---
 
