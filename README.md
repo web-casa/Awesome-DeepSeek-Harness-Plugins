@@ -398,7 +398,7 @@ and listed on [cordis.run](https://cordis.run).
 | [dsh-archived-sessions](https://github.com/hashdiana/dsh-archived-sessions) | 在设置面板中新增“已归档会话”分区：列出被归档的会话（默认在侧边栏不可见），点击即可重新打开 | [🔗](https://cordis.run/plugins/dsh-archived-sessions) |
 | [dsh-conversation-indicator](https://github.com/smanx/dsh-conversation-indicator) | Conversation indicator for the DeepSeek Harness web GUI: clickable markers along the transcript scrollbar that jump t… | [🔗](https://cordis.run/plugins/dsh-conversation-indicator) |
 | [dsh-skill-manager](https://github.com/bitterSmilezzz/dsh-skill-manager) | In-GUI skill manager for the dsh web GUI: a top-level Skills entry in Settings (movable into the Plugins section) tha… | [🔗](https://cordis.run/plugins/dsh-skill-manager) |
-| [dsh-cost-guard](https://github.com/sixtysevenlf/dsh-cost-guard) | DeepSeek cost-guard plugin: per-session cost accounting by official peak/off-peak tier rates, ¥ budget guard with nea… | [🔗](https://cordis.run/plugins/dsh-cost-guard) |
+| [dsh-cost-guard](https://github.com/sixtysevenlf/dsh-cost-guard) | DeepSeek cost-guard plugin: per-session cost accounting by official peak/off-peak tier rates, ¥ budget hard-cap (stop… | [🔗](https://cordis.run/plugins/dsh-cost-guard) |
 
 ---
 
