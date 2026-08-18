@@ -3,7 +3,7 @@
 > **DeepSeek Harness（DSH）** Cordis 插件生态的官方自动生成 awesome list ——
 > 由 [cordis.run](https://cordis.run)（DeepSeek Harness 插件市场）策展维护。
 
-**328 个 DeepSeek Harness 插件** · 数据来自 [cordis.run 开放插件索引](data/plugins.json)。
+**334 个 DeepSeek Harness 插件** · 数据来自 [cordis.run 开放插件索引](data/plugins.json)。
 
 每个收录的 DeepSeek Harness 插件都有**一行安装命令**和 **cordis.run 安全扫描状态**。
 
@@ -114,7 +114,7 @@
 
 ## 工作流与自动化
 
-> DeepSeek Harness 多步骤编排、任务调度与智能体工作流插件。 *(37 个插件)*
+> DeepSeek Harness 多步骤编排、任务调度与智能体工作流插件。 *(38 个插件)*
 
 | DeepSeek Harness 插件 | 简介 | cordis.run |
 |---|---|---|
@@ -155,10 +155,11 @@
 | [dsh-plugin-verified-search](https://github.com/f0909172434/dsh-plugin-verified-search) | DeepSeek Harness 的已验证实时来源搜索工作流 | [🔗](https://cordis.run/plugins/dsh-plugin-verified-search) |
 | [@dsh-polyglot/bundle](https://github.com/Jesse-njx/dsh-polyglot) | dsh-polyglot —— 面向 DSH 的模型切换器：它提供了一个通用的 OpenAI 兼容 ctx.llm 适配器，内置经过精心挑选的免费/廉价 … | [🔗](https://cordis.run/plugins/dsh-polyglot-bundle) |
 | [@towzai/dsh-memory](https://github.com/Towzai/dsh-memory) | DeepSeek Harness (dsh) 的跨会话记忆插件：基于 YAML 的记住/回忆/忘记/置顶工具、嵌入搜索，以及带 WebUI 上下文注入可见… | [🔗](https://cordis.run/plugins/towzai-dsh-memory) |
+| [dsh-routing-suite-opencode-go](https://github.com/sixtysevenlf/dsh-routing-suite-opencode-go) | 面向 OpenCode Go API 的路由套件（opencode-go provider + DSH rc.6 兼容）：运行时注入器 × 思维模式路由预… | [🔗](https://cordis.run/plugins/dsh-routing-suite-opencode-go) |
 
 ## 主题与界面
 
-> DeepSeek Harness 终端主题、界面增强与显示类插件。 *(90 个插件)*
+> DeepSeek Harness 终端主题、界面增强与显示类插件。 *(92 个插件)*
 
 | DeepSeek Harness 插件 | 简介 | cordis.run |
 |---|---|---|
@@ -250,8 +251,10 @@
 | [@wellorbetter/dsh-product-delivery-workflow](https://github.com/wellorbetter/dsh-product-delivery-workflow) | DeepSeek Harness 的产品交付工作流插件：完整的从产品到发布流水线（研究 -> PRD -> OpenSpec 架构 -> 并行多智能体实现… | [🔗](https://cordis.run/plugins/wellorbetter-dsh-product-delivery-workflow) |
 | [dshplug](https://github.com/wuyuanjiang1/dsh2wechat) | DeepSeek Harness 消息桥插件：微信 ClawBot（iLink） | [🔗](https://cordis.run/plugins/dshplug) |
 | [sidesight](https://github.com/ZhuXinAI/sidesight) | 纯文本编码智能体的视觉伴生工具 | [🔗](https://cordis.run/plugins/sidesight) |
+| [dsh-sound-alerts](https://github.com/sixtysevenlf/dsh-sound-alerts) | DSH Web UI 声音提示插件：需要授权/提问与任务完成时播放提示音（Web Audio、无内置资源） | [🔗](https://cordis.run/plugins/dsh-sound-alerts) |
 | [@chi-hong22/dsh-mdbox](https://github.com/Chi-hong22/dsh-mdbox) | DeepSeek Harness Web composer 的 Markdown 编辑辅助工具：支持通过 Shift+Enter 键继续输入列表项，有序列… | [🔗](https://cordis.run/plugins/dsh-external-dsh-mdbox) |
 | [delivery-review-plugin](https://github.com/xiaoxiao-svg/delivery-review-dsh-plugin) | 双 Agent 交付协作工作流（loop 模式）的 DeepSeek Harness 移植版：/delivery-review 命令 + 审查材料自动生成… | [🔗](https://cordis.run/plugins/delivery-review-plugin) |
+| [dsh-balance-window](https://github.com/sixtysevenlf/dsh-balance-window) | dsh 左下角余额悬浮窗：实时显示 DeepSeek 官方 API 余额与预计剩余 token，可拖动、自动刷新 | [🔗](https://cordis.run/plugins/dsh-balance-window) |
 
 ## 数据集成
 
@@ -270,7 +273,7 @@
 
 ## 效率工具
 
-> 让日常 DeepSeek Harness 使用更快更顺手的实用插件。 *(118 个插件)*
+> 让日常 DeepSeek Harness 使用更快更顺手的实用插件。 *(121 个插件)*
 
 | DeepSeek Harness 插件 | 简介 | cordis.run |
 |---|---|---|
@@ -310,6 +313,7 @@
 | [codex-plugin-dsh](https://github.com/wingoo/codex-plugin-dsh) | DeepSeek Harness 的 Codex App Server 模型提供器插件 | [🔗](https://cordis.run/plugins/codex-plugin-dsh) |
 | [@huanlin/dsh-plugin-sleep](https://github.com/HuanLinOTO/dsh-plugin-sleep) | DSH 插件，提供单一的 `sleep` 工具，让模型可按配置的毫秒数暂停，并支持取消 | [🔗](https://cordis.run/plugins/huanlin-dsh-plugin-sleep) |
 | [qiushi-dsh-evidence-audit](https://github.com/030611/qiushi-dsh-evidence-audit) | 用于DeepSeek Harness的仅观察哈希链证据收据 | [🔗](https://cordis.run/plugins/qiushi-dsh-evidence-audit) |
+| [dsh-save-balance-monitor](https://github.com/sixtysevenlf/dsh-save-balance-monitor) | 省钱+余额监控悬浮窗（DSH Web UI 插件）：DeepSeek / OpenCode Go 双标签余额、限额监控（金额/tok/小时）、语音提醒、超… | [🔗](https://cordis.run/plugins/dsh-save-balance-monitor) |
 | [dsh-plugin-cost-tracker](https://github.com/YYTbit/dsh-plugin-cost-tracker) | DeepSeek Harness 的 Token 成本追踪器 -- 跟踪使用量，计算成本，预算警告 | [🔗](https://cordis.run/plugins/dsh-plugin-cost-tracker) |
 | [dsh-plugin-opencode-bridge](https://github.com/YYTbit/dsh-plugin-opencode-bridge) | 将OpenCode的技能与配置接入DeepSeek Harness | [🔗](https://cordis.run/plugins/dsh-plugin-opencode-bridge) |
 | [dsh-report-html](https://github.com/hccccc01333/dsh-report-html) | 从 Markdown、表格和图表数据生成自包含的交互式 HTML 报告 | [🔗](https://cordis.run/plugins/dsh-report-html) |
@@ -329,6 +333,7 @@
 | [dsh-blue-whale-maid](https://github.com/yuxino/dsh-blue-whale-maid) | 蓝鲸女仆 — 一款适用于 DeepSeek Harness 网页 GUI 的桌面像素宠物（画师：simashui @ codex-pets.net） | [🔗](https://cordis.run/plugins/dsh-blue-whale-maid) |
 | [@zerohackz/dsh-openflowframes](https://github.com/ZeroHackz/OpenFlowFrames) | DeepSeek Harness 插件，将 OpenFlowFrames 视频帧插值（RIFE）封装为智能体工具 | [🔗](https://cordis.run/plugins/zerohackz-dsh-openflowframes) |
 | [@huanlin/dsh-plugin-auto-blame](https://github.com/HuanLinOTO/dsh-plugin-auto-blame) | Auto-blame：当一轮对话结束时，向 LLM 请求三个毒舌的后续提示，并以点击即可发送的气泡形式显示在输入框上方 | [🔗](https://cordis.run/plugins/huanlin-dsh-plugin-auto-blame) |
+| [dsh-opencode-go-monitor](https://github.com/sixtysevenlf/dsh-opencode-go-monitor) | DSH web UI 悬浮面板：OpenCode Go 月度/滚动/每周额度余额 + 用量监控（key 本地读取，各自显示自己的余额） | [🔗](https://cordis.run/plugins/dsh-opencode-go-monitor) |
 | [dsh-agent-message](https://github.com/GengDaPeng/dsh-agent-message) | 跨会话 Agent 通信：让 DeepSeek Harness 里不同的 Agent 会话互相收发消息 | [🔗](https://cordis.run/plugins/dsh-agent-message) |
 | [dsh-claude-marketplace](https://github.com/ben7am1n/dsh-claude-marketplace) | 为 DeepSeek Harness 打造的 Claude Code 兼容层：可将 .claude 技能/命令/代理加载进来，并从 Claude Code… | [🔗](https://cordis.run/plugins/dsh-claude-marketplace) |
 | [dsh-mobile-control](https://github.com/PangYiMing/dsh-mobile-control) | 用于控制移动设备（ADB / iOS 模拟器 / WDA）的 DSH 插件 | [🔗](https://cordis.run/plugins/dsh-mobile-control) |
@@ -392,6 +397,7 @@
 | [dsh-archived-sessions](https://github.com/hashdiana/dsh-archived-sessions) | 在设置面板中新增“已归档会话”分区：列出被归档的会话（默认在侧边栏不可见），点击即可重新打开 | [🔗](https://cordis.run/plugins/dsh-archived-sessions) |
 | [dsh-conversation-indicator](https://github.com/smanx/dsh-conversation-indicator) | DeepSeek Harness 网页 GUI 的对话指示器：对话记录滚动条上的可点击标记，可跳转到相应的消息或轮次 | [🔗](https://cordis.run/plugins/dsh-conversation-indicator) |
 | [dsh-skill-manager](https://github.com/bitterSmilezzz/dsh-skill-manager) | dsh 网页 GUI 的界面内技能管理器：设置中的顶级“技能”入口（可移入“插件”区域），列出所有已安装技能（名称、描述、模型/用户调用类型、源根目录），… | [🔗](https://cordis.run/plugins/dsh-skill-manager) |
+| [dsh-cost-guard](https://github.com/sixtysevenlf/dsh-cost-guard) | DeepSeek 成本守卫插件：按官方峰谷分级核算会话成本、¥ 预算守卫（超支近场收敛引导）、收敛/深度/错峰引导注入、峰谷感知错峰队列（空闲时段自动执行） | [🔗](https://cordis.run/plugins/dsh-cost-guard) |
 
 ---
 
