@@ -1,7 +1,7 @@
 {
-  "version": "2026-08-17",
-  "total": 328,
-  "generatedAt": "2026-08-17T05:45:40.839Z",
+  "version": "2026-08-19",
+  "total": 334,
+  "generatedAt": "2026-08-18T18:44:24.393Z",
   "plugins": [
     {
       "slug": "liustack-modlens",
@@ -6890,6 +6890,132 @@
       "sourceType": "registry",
       "installCommand": "dsh plugin --profile <name> add dsh-skill-manager",
       "cordisUrl": "https://cordis.run/plugins/dsh-skill-manager"
+    },
+    {
+      "slug": "dsh-cost-guard",
+      "name": "dsh-cost-guard",
+      "nameZh": "dsh-cost-guard",
+      "description": "DeepSeek cost-guard plugin: per-session cost accounting by official peak/off-peak tier rates, ¥ budget guard with near-field convergence guidance, converge/deep/offpeak LLM-guide injection, and a peak-aware off-peak queue that runs deferred LLM tasks in idle windows. Zero dependencies, prefix-cache neutral.",
+      "descriptionZh": "DeepSeek 成本守卫插件：按官方峰谷分级核算会话成本、¥ 预算守卫（超支近场收敛引导）、收敛/深度/错峰引导注入、峰谷感知错峰队列（空闲时段自动执行）。零依赖，前缀缓存中性。",
+      "npmPackage": "https://github.com/sixtysevenlf/dsh-cost-guard",
+      "categories": [
+        "plugin-productivity"
+      ],
+      "repoUrl": "https://github.com/sixtysevenlf/dsh-cost-guard",
+      "author": "sixtysevenlf",
+      "license": "MIT",
+      "latestVersion": "0.1.21",
+      "downloadsCached": null,
+      "stars": 0,
+      "securityStatus": "clean",
+      "sourceType": "github",
+      "installCommand": "dsh plugin --profile <name> add https://github.com/sixtysevenlf/dsh-cost-guard",
+      "cordisUrl": "https://cordis.run/plugins/dsh-cost-guard"
+    },
+    {
+      "slug": "dsh-save-balance-monitor",
+      "name": "dsh-save-balance-monitor",
+      "nameZh": "dsh-save-balance-monitor",
+      "description": "Money-saving + balance monitor floating panel (DSH Web UI plugin): dual-tab DeepSeek / OpenCode Go balance & quota monitoring (amount/token/hour), voice alerts, and breakpoint truncation on limit exceeded.",
+      "descriptionZh": "省钱+余额监控悬浮窗（DSH Web UI 插件）：DeepSeek / OpenCode Go 双标签余额、限额监控（金额/tok/小时）、语音提醒、超限断点截断。",
+      "npmPackage": "https://github.com/sixtysevenlf/dsh-save-balance-monitor",
+      "categories": [
+        "plugin-productivity"
+      ],
+      "repoUrl": "https://github.com/sixtysevenlf/dsh-save-balance-monitor",
+      "author": "sixtysevenlf",
+      "license": "BSD-3-Clause",
+      "latestVersion": "1.0.0",
+      "downloadsCached": null,
+      "stars": 4,
+      "securityStatus": "clean",
+      "sourceType": "github",
+      "installCommand": "dsh plugin --profile <name> add https://github.com/sixtysevenlf/dsh-save-balance-monitor",
+      "cordisUrl": "https://cordis.run/plugins/dsh-save-balance-monitor"
+    },
+    {
+      "slug": "dsh-opencode-go-monitor",
+      "name": "dsh-opencode-go-monitor",
+      "nameZh": "dsh-opencode-go-monitor",
+      "description": "DSH web UI floating panel: OpenCode Go monthly/rolling/weekly quota balance + usage monitor (keys read locally, each shows its own balance).",
+      "descriptionZh": "DSH web UI 悬浮面板：OpenCode Go 月度/滚动/每周额度余额 + 用量监控（key 本地读取，各自显示自己的余额）。",
+      "npmPackage": "https://github.com/sixtysevenlf/dsh-opencode-go-monitor",
+      "categories": [
+        "plugin-productivity"
+      ],
+      "repoUrl": "https://github.com/sixtysevenlf/dsh-opencode-go-monitor",
+      "author": "sixtysevenlf",
+      "license": "BSD-3-Clause",
+      "latestVersion": "1.0.0",
+      "downloadsCached": null,
+      "stars": 3,
+      "securityStatus": "clean",
+      "sourceType": "github",
+      "installCommand": "dsh plugin --profile <name> add https://github.com/sixtysevenlf/dsh-opencode-go-monitor",
+      "cordisUrl": "https://cordis.run/plugins/dsh-opencode-go-monitor"
+    },
+    {
+      "slug": "dsh-sound-alerts",
+      "name": "dsh-sound-alerts",
+      "nameZh": "dsh-sound-alerts",
+      "description": "Web UI sound alerts for DeepSeek Harness: chime when authorization/permission is requested and when a task completes. Web Audio, no bundled assets.",
+      "descriptionZh": "DSH Web UI 声音提示插件：需要授权/提问与任务完成时播放提示音（Web Audio、无内置资源）。",
+      "npmPackage": "https://github.com/sixtysevenlf/dsh-sound-alerts",
+      "categories": [
+        "themes-ui"
+      ],
+      "repoUrl": "https://github.com/sixtysevenlf/dsh-sound-alerts",
+      "author": "sixtysevenlf",
+      "license": "BSD-3-Clause",
+      "latestVersion": "0.0.1",
+      "downloadsCached": null,
+      "stars": 1,
+      "securityStatus": "clean",
+      "sourceType": "github",
+      "installCommand": "dsh plugin --profile <name> add https://github.com/sixtysevenlf/dsh-sound-alerts",
+      "cordisUrl": "https://cordis.run/plugins/dsh-sound-alerts"
+    },
+    {
+      "slug": "dsh-balance-window",
+      "name": "dsh-balance-window",
+      "nameZh": "dsh-balance-window",
+      "description": "Draggable bottom-left balance floating window for the dsh web GUI: live DeepSeek official API balance and projected remaining tokens, auto-refresh.",
+      "descriptionZh": "dsh 左下角余额悬浮窗：实时显示 DeepSeek 官方 API 余额与预计剩余 token，可拖动、自动刷新。",
+      "npmPackage": "https://github.com/sixtysevenlf/dsh-balance-window",
+      "categories": [
+        "themes-ui"
+      ],
+      "repoUrl": "https://github.com/sixtysevenlf/dsh-balance-window",
+      "author": "sixtysevenlf",
+      "license": "MIT",
+      "latestVersion": "1.0.0",
+      "downloadsCached": null,
+      "stars": 0,
+      "securityStatus": "clean",
+      "sourceType": "github",
+      "installCommand": "dsh plugin --profile <name> add https://github.com/sixtysevenlf/dsh-balance-window",
+      "cordisUrl": "https://cordis.run/plugins/dsh-balance-window"
+    },
+    {
+      "slug": "dsh-routing-suite-opencode-go",
+      "name": "dsh-routing-suite-opencode-go",
+      "nameZh": "dsh-routing-suite-opencode-go",
+      "description": "Routing suite adapted for the OpenCode Go API (opencode-go provider + DSH rc.6 compatibility): runtime injector × reasoning-persona routing presets. Installed via README install.ps1 (git clone --recurse-submodules).",
+      "descriptionZh": "面向 OpenCode Go API 的路由套件（opencode-go provider + DSH rc.6 兼容）：运行时注入器 × 思维模式路由预设（含 router-opencode-go），按 README/install.ps1 安装。",
+      "npmPackage": "https://github.com/sixtysevenlf/dsh-routing-suite-opencode-go",
+      "categories": [
+        "workflow"
+      ],
+      "repoUrl": "https://github.com/sixtysevenlf/dsh-routing-suite-opencode-go",
+      "author": "sixtysevenlf",
+      "license": "MIT",
+      "latestVersion": "0.3.0",
+      "downloadsCached": null,
+      "stars": 0,
+      "securityStatus": "clean",
+      "sourceType": "github",
+      "installCommand": "dsh plugin --profile <name> add https://github.com/sixtysevenlf/dsh-routing-suite-opencode-go",
+      "cordisUrl": "https://cordis.run/plugins/dsh-routing-suite-opencode-go"
     }
   ]
 }
