@@ -6895,8 +6895,8 @@
       "slug": "dsh-cost-guard",
       "name": "dsh-cost-guard",
       "nameZh": "dsh-cost-guard",
-      "description": "DeepSeek cost-guard plugin: per-session cost accounting by official peak/off-peak tier rates, ¥ budget guard with near-field convergence guidance, converge/deep/offpeak LLM-guide injection, and a peak-aware off-peak queue that runs deferred LLM tasks in idle windows. Zero dependencies, prefix-cache neutral.",
-      "descriptionZh": "DeepSeek 成本守卫插件：按官方峰谷分级核算会话成本、¥ 预算守卫（超支近场收敛引导）、收敛/深度/错峰引导注入、峰谷感知错峰队列（空闲时段自动执行）。零依赖，前缀缓存中性。",
+      "description": "DeepSeek cost-guard plugin: per-session cost accounting by official peak/off-peak tier rates, ¥ budget hard-cap (stop-at-limit, no further billing), automatic cost routing (depth/converge/offpeak by complexity × rate × budget), dynamic defense 1−2σ/B converge-then-stop, peak-aware off-peak queue. Zero dependencies, prefix-cache neutral.",
+      "descriptionZh": "DeepSeek 成本守卫插件：官方峰谷费率核算会话成本；¥ 预算硬上限（花到即停、不再计费）；自动成本路由（按 复杂度×峰谷×预算余量 选 深度/收敛/错峰）；动态防线 1−2σ/B 先收敛再硬停；峰谷感知错峰队列。零依赖、前缀缓存中性。",
       "npmPackage": "https://github.com/sixtysevenlf/dsh-cost-guard",
       "categories": [
         "plugin-productivity"
@@ -6904,7 +6904,7 @@
       "repoUrl": "https://github.com/sixtysevenlf/dsh-cost-guard",
       "author": "sixtysevenlf",
       "license": "MIT",
-      "latestVersion": "0.1.21",
+      "latestVersion": "0.1.25",
       "downloadsCached": null,
       "stars": 0,
       "securityStatus": "clean",
