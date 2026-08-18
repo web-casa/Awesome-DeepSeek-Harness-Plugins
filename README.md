@@ -3,7 +3,7 @@
 > The official, auto-generated awesome list for the **DeepSeek Harness (DSH)** Cordis plugin ecosystem —
 > curated by [cordis.run](https://cordis.run), the DeepSeek Harness plugin marketplace.
 
-**328 DeepSeek Harness plugins** · curated from the [cordis.run open plugin index](data/plugins.json).
+**334 DeepSeek Harness plugins** · curated from the [cordis.run open plugin index](data/plugins.json).
 
 Every listed DeepSeek Harness plugin has a **one-line install command** and a **security scan status** on its cordis.run page.
 
@@ -115,7 +115,7 @@ and listed on [cordis.run](https://cordis.run).
 
 ## Workflow & Automation
 
-> Multi-step orchestration, task scheduling and agent workflow plugins for DeepSeek Harness. *(37 plugins)*
+> Multi-step orchestration, task scheduling and agent workflow plugins for DeepSeek Harness. *(38 plugins)*
 
 | DeepSeek Harness Plugin | Description | On cordis.run |
 |---|---|---|
@@ -156,10 +156,11 @@ and listed on [cordis.run](https://cordis.run).
 | [dsh-plugin-verified-search](https://github.com/f0909172434/dsh-plugin-verified-search) | Verified current-source search workflow for DeepSeek Harness | [🔗](https://cordis.run/plugins/dsh-plugin-verified-search) |
 | [@dsh-polyglot/bundle](https://github.com/Jesse-njx/dsh-polyglot) | dsh-polyglot — the model switch for DSH: one generic OpenAI-compatible ctx.llm adapter, curated free/cheap DeepSeek p… | [🔗](https://cordis.run/plugins/dsh-polyglot-bundle) |
 | [@towzai/dsh-memory](https://github.com/Towzai/dsh-memory) | Cross-session memory plugin for DeepSeek Harness (dsh): YAML-backed remember/recall/forget/pin tools, embedding searc… | [🔗](https://cordis.run/plugins/towzai-dsh-memory) |
+| [dsh-routing-suite-opencode-go](https://github.com/sixtysevenlf/dsh-routing-suite-opencode-go) | Routing suite adapted for the OpenCode Go API (opencode-go provider + DSH rc.6 compatibility): runtime injector × rea… | [🔗](https://cordis.run/plugins/dsh-routing-suite-opencode-go) |
 
 ## Themes & UI
 
-> Terminal themes, UI enhancements and display plugins for DeepSeek Harness. *(90 plugins)*
+> Terminal themes, UI enhancements and display plugins for DeepSeek Harness. *(92 plugins)*
 
 | DeepSeek Harness Plugin | Description | On cordis.run |
 |---|---|---|
@@ -251,8 +252,10 @@ and listed on [cordis.run](https://cordis.run).
 | [@wellorbetter/dsh-product-delivery-workflow](https://github.com/wellorbetter/dsh-product-delivery-workflow) | Product delivery workflow plugin for DeepSeek Harness: a full product-to-release pipeline (research -> PRD -> OpenSpe… | [🔗](https://cordis.run/plugins/wellorbetter-dsh-product-delivery-workflow) |
 | [dshplug](https://github.com/wuyuanjiang1/dsh2wechat) | DeepSeek Harness 消息桥插件：微信 ClawBot（iLink）。 | [🔗](https://cordis.run/plugins/dshplug) |
 | [sidesight](https://github.com/ZhuXinAI/sidesight) | Vision sidecar for text-only coding agents. | [🔗](https://cordis.run/plugins/sidesight) |
+| [dsh-sound-alerts](https://github.com/sixtysevenlf/dsh-sound-alerts) | Web UI sound alerts for DeepSeek Harness: chime when authorization/permission is requested and when a task completes | [🔗](https://cordis.run/plugins/dsh-sound-alerts) |
 | [@chi-hong22/dsh-mdbox](https://github.com/Chi-hong22/dsh-mdbox) | DeepSeek Harness Web composer markdown editing helper: Shift+Enter list continuation with ordered-list auto-renumberi… | [🔗](https://cordis.run/plugins/dsh-external-dsh-mdbox) |
 | [delivery-review-plugin](https://github.com/xiaoxiao-svg/delivery-review-dsh-plugin) | 双 Agent 交付协作工作流（loop 模式）的 DeepSeek Harness 移植版：/delivery-review 命令 + 审查材料自动生成 + fixer/reviewer/planner 隔离子代理。基于 DSH 原… | [🔗](https://cordis.run/plugins/delivery-review-plugin) |
+| [dsh-balance-window](https://github.com/sixtysevenlf/dsh-balance-window) | Draggable bottom-left balance floating window for the dsh web GUI: live DeepSeek official API balance and projected r… | [🔗](https://cordis.run/plugins/dsh-balance-window) |
 
 ## Data Integration
 
@@ -271,7 +274,7 @@ and listed on [cordis.run](https://cordis.run).
 
 ## Productivity
 
-> Utilities that make everyday DeepSeek Harness usage faster and easier. *(118 plugins)*
+> Utilities that make everyday DeepSeek Harness usage faster and easier. *(121 plugins)*
 
 | DeepSeek Harness Plugin | Description | On cordis.run |
 |---|---|---|
@@ -311,6 +314,7 @@ and listed on [cordis.run](https://cordis.run).
 | [codex-plugin-dsh](https://github.com/wingoo/codex-plugin-dsh) | Codex App Server model provider plugin for DeepSeek Harness | [🔗](https://cordis.run/plugins/codex-plugin-dsh) |
 | [@huanlin/dsh-plugin-sleep](https://github.com/HuanLinOTO/dsh-plugin-sleep) | DSH plugin exposing a single `sleep` tool that lets the model pause for a configurable number of milliseconds, honori… | [🔗](https://cordis.run/plugins/huanlin-dsh-plugin-sleep) |
 | [qiushi-dsh-evidence-audit](https://github.com/030611/qiushi-dsh-evidence-audit) | Observe-only hash-chained evidence receipts for DeepSeek Harness | [🔗](https://cordis.run/plugins/qiushi-dsh-evidence-audit) |
+| [dsh-save-balance-monitor](https://github.com/sixtysevenlf/dsh-save-balance-monitor) | Money-saving + balance monitor floating panel (DSH Web UI plugin): dual-tab DeepSeek / OpenCode Go balance & quota mo… | [🔗](https://cordis.run/plugins/dsh-save-balance-monitor) |
 | [dsh-plugin-cost-tracker](https://github.com/YYTbit/dsh-plugin-cost-tracker) | Token cost tracker for DeepSeek Harness -- track usage, calculate costs, budget warnings | [🔗](https://cordis.run/plugins/dsh-plugin-cost-tracker) |
 | [dsh-plugin-opencode-bridge](https://github.com/YYTbit/dsh-plugin-opencode-bridge) | Bridge OpenCode's skills and configuration into DeepSeek Harness | [🔗](https://cordis.run/plugins/dsh-plugin-opencode-bridge) |
 | [dsh-report-html](https://github.com/hccccc01333/dsh-report-html) | Generate self-contained interactive HTML reports from Markdown, tables, and chart data | [🔗](https://cordis.run/plugins/dsh-report-html) |
@@ -330,6 +334,7 @@ and listed on [cordis.run](https://cordis.run).
 | [dsh-blue-whale-maid](https://github.com/yuxino/dsh-blue-whale-maid) | 蓝鲸女仆 — a desktop pixel pet for the DeepSeek Harness web GUI (artwork by simashui @ codex-pets.net) | [🔗](https://cordis.run/plugins/dsh-blue-whale-maid) |
 | [@zerohackz/dsh-openflowframes](https://github.com/ZeroHackz/OpenFlowFrames) | DeepSeek Harness plugin exposing OpenFlowFrames video frame interpolation (RIFE) as agent tools | [🔗](https://cordis.run/plugins/zerohackz-dsh-openflowframes) |
 | [@huanlin/dsh-plugin-auto-blame](https://github.com/HuanLinOTO/dsh-plugin-auto-blame) | Auto-blame: when a turn closes, asks an LLM for three cynical follow-up prompts and shows them as click-to-send bubbl… | [🔗](https://cordis.run/plugins/huanlin-dsh-plugin-auto-blame) |
+| [dsh-opencode-go-monitor](https://github.com/sixtysevenlf/dsh-opencode-go-monitor) | DSH web UI floating panel: OpenCode Go monthly/rolling/weekly quota balance + usage monitor (keys read locally, each … | [🔗](https://cordis.run/plugins/dsh-opencode-go-monitor) |
 | [dsh-agent-message](https://github.com/GengDaPeng/dsh-agent-message) | 跨会话 Agent 通信：让 DeepSeek Harness 里不同的 Agent 会话互相收发消息。 | [🔗](https://cordis.run/plugins/dsh-agent-message) |
 | [dsh-claude-marketplace](https://github.com/ben7am1n/dsh-claude-marketplace) | Claude Code compatibility layer for DeepSeek Harness: load .claude skills/commands/agents and install plugins from Cl… | [🔗](https://cordis.run/plugins/dsh-claude-marketplace) |
 | [dsh-mobile-control](https://github.com/PangYiMing/dsh-mobile-control) | DSH plugin for controlling mobile devices (ADB / iOS simulator / WDA) | [🔗](https://cordis.run/plugins/dsh-mobile-control) |
@@ -393,6 +398,7 @@ and listed on [cordis.run](https://cordis.run).
 | [dsh-archived-sessions](https://github.com/hashdiana/dsh-archived-sessions) | 在设置面板中新增“已归档会话”分区：列出被归档的会话（默认在侧边栏不可见），点击即可重新打开 | [🔗](https://cordis.run/plugins/dsh-archived-sessions) |
 | [dsh-conversation-indicator](https://github.com/smanx/dsh-conversation-indicator) | Conversation indicator for the DeepSeek Harness web GUI: clickable markers along the transcript scrollbar that jump t… | [🔗](https://cordis.run/plugins/dsh-conversation-indicator) |
 | [dsh-skill-manager](https://github.com/bitterSmilezzz/dsh-skill-manager) | In-GUI skill manager for the dsh web GUI: a top-level Skills entry in Settings (movable into the Plugins section) tha… | [🔗](https://cordis.run/plugins/dsh-skill-manager) |
+| [dsh-cost-guard](https://github.com/sixtysevenlf/dsh-cost-guard) | DeepSeek cost-guard plugin: per-session cost accounting by official peak/off-peak tier rates, ¥ budget guard with nea… | [🔗](https://cordis.run/plugins/dsh-cost-guard) |
 
 ---
 
