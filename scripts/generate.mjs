@@ -87,9 +87,9 @@ function genEn() {
   push("## What is DeepSeek Harness?");
   push();
   push("**DeepSeek Harness (DSH)** is an agent harness for DeepSeek models. Its plugin system — **Cordis** —");
-  push("lets you install npm packages that declare a `dsh.bundle` and patch them into a DSH profile.");
-  push("This list indexes **DeepSeek Harness Cordis plugins** that are verified against the npm registry");
-  push("and listed on [cordis.run](https://cordis.run).");
+  push("lets you install packages from npm or GitHub that declare a `dsh.bundle` and patch them into a DSH profile.");
+  push("This list indexes **DeepSeek Harness Cordis plugins** with a checked package source");
+  push("and `dsh.bundle` declaration, listed on [cordis.run](https://cordis.run).");
   push();
   push("## Contents");
   push();
@@ -161,7 +161,7 @@ function genEn() {
   push("Each DeepSeek Harness plugin entry links to its cordis.run page where you can find the install command,");
   push("security scan report, and bilingual setup guides.");
   push();
-  push("Unlike community-maintained indexes, every DeepSeek Harness plugin here is **verified against the npm registry and checked for a valid `dsh.bundle` declaration** before listing.");
+  push("Each entry records its current install source and index status. A listing or a clean status is **not** a security audit: inspect source, permissions, compatibility, and pin the version before installing.");
   push();
   push("## License");
   push();
@@ -193,8 +193,8 @@ function genZh() {
   push("## 什么是 DeepSeek Harness？");
   push();
   push("**DeepSeek Harness（DSH）** 是面向 DeepSeek 模型的智能体运行框架。它的插件体系 **Cordis**");
-  push("允许你安装声明了 `dsh.bundle` 的 npm 包，并把它作为补丁层挂载到 DSH profile。");
-  push("本列表收录经过 npm registry 校验、并在 [cordis.run](https://cordis.run) 上架的 **DeepSeek Harness Cordis 插件**。");
+  push("允许你从 npm 或 GitHub 安装声明了 `dsh.bundle` 的包，并把它作为补丁层挂载到 DSH profile。");
+  push("本列表收录已核验安装来源和 `dsh.bundle` 声明、并在 [cordis.run](https://cordis.run) 上架的 **DeepSeek Harness Cordis 插件**。");
   push();
   push("## 目录");
   push();
@@ -266,7 +266,7 @@ function genZh() {
   push("本 DeepSeek Harness 插件列表由 cordis.run 团队从 [`data/plugins.json`](data/plugins.json) 自动生成。");
   push("每个 DeepSeek Harness 插件条目都链接到其 cordis.run 页面，可查看安装命令、安全扫描报告与双语配置教程。");
   push();
-  push("与社区维护的索引不同，这里的每个 DeepSeek Harness 插件都**经过 npm registry 校验和 `dsh.bundle` 声明检查**后才会上架。");
+  push("每个条目记录当前安装来源和索引状态；被收录或“clean”状态都**不等于安全审计**。安装前请审查来源、权限与兼容性，并固定版本。");
   push();
   push("## License");
   push();

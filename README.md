@@ -14,9 +14,9 @@ Every listed DeepSeek Harness plugin has a **one-line install command** and a **
 ## What is DeepSeek Harness?
 
 **DeepSeek Harness (DSH)** is an agent harness for DeepSeek models. Its plugin system — **Cordis** —
-lets you install npm packages that declare a `dsh.bundle` and patch them into a DSH profile.
-This list indexes **DeepSeek Harness Cordis plugins** that are verified against the npm registry
-and listed on [cordis.run](https://cordis.run).
+lets you install packages from npm or GitHub that declare a `dsh.bundle` and patch them into a DSH profile.
+This list indexes **DeepSeek Harness Cordis plugins** with a checked package source
+and `dsh.bundle` declaration, listed on [cordis.run](https://cordis.run).
 
 ## Contents
 
@@ -424,7 +424,7 @@ This DeepSeek Harness plugin list is auto-generated from [`data/plugins.json`](d
 Each DeepSeek Harness plugin entry links to its cordis.run page where you can find the install command,
 security scan report, and bilingual setup guides.
 
-Unlike community-maintained indexes, every DeepSeek Harness plugin here is **verified against the npm registry and checked for a valid `dsh.bundle` declaration** before listing.
+Each entry records its current install source and index status. A listing or a clean status is **not** a security audit: inspect source, permissions, compatibility, and pin the version before installing.
 
 ## License
 

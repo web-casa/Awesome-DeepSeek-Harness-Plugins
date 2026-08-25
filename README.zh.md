@@ -14,8 +14,8 @@
 ## 什么是 DeepSeek Harness？
 
 **DeepSeek Harness（DSH）** 是面向 DeepSeek 模型的智能体运行框架。它的插件体系 **Cordis**
-允许你安装声明了 `dsh.bundle` 的 npm 包，并把它作为补丁层挂载到 DSH profile。
-本列表收录经过 npm registry 校验、并在 [cordis.run](https://cordis.run) 上架的 **DeepSeek Harness Cordis 插件**。
+允许你从 npm 或 GitHub 安装声明了 `dsh.bundle` 的包，并把它作为补丁层挂载到 DSH profile。
+本列表收录已核验安装来源和 `dsh.bundle` 声明、并在 [cordis.run](https://cordis.run) 上架的 **DeepSeek Harness Cordis 插件**。
 
 ## 目录
 
@@ -422,7 +422,7 @@
 本 DeepSeek Harness 插件列表由 cordis.run 团队从 [`data/plugins.json`](data/plugins.json) 自动生成。
 每个 DeepSeek Harness 插件条目都链接到其 cordis.run 页面，可查看安装命令、安全扫描报告与双语配置教程。
 
-与社区维护的索引不同，这里的每个 DeepSeek Harness 插件都**经过 npm registry 校验和 `dsh.bundle` 声明检查**后才会上架。
+每个条目记录当前安装来源和索引状态；被收录或“clean”状态都**不等于安全审计**。安装前请审查来源、权限与兼容性，并固定版本。
 
 ## License
 
