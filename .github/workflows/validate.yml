@@ -1,0 +1,50 @@
+name: Validate plugin index
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+concurrency:
+  group: validate-plugin-index-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    name: Validate data and generated READMEs
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+
+      - name: Set up Node.js
+        uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7
+        with:
+          node-version: 24
+
+      - name: Validate plugin data
+        run: node scripts/validate.mjs
+
+      - name: Reject direct edits to the generated index
+        if: github.event_name == 'pull_request'
+        env:
+          BASE_REF: ${{ github.base_ref }}
+        run: |
+          if ! git diff --quiet "origin/${BASE_REF}...HEAD" -- data/plugins.json; then
+            echo "data/plugins.json is generated from the verified Cordis index."
+            echo "Submit plugins at https://cordis.run/submit instead of editing the export directly."
+            exit 1
+          fi
+
+      - name: Verify generated READMEs
+        run: |
+          node scripts/generate.mjs
+          git diff --exit-code -- README.md README.zh.md

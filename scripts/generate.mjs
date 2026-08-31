@@ -150,7 +150,7 @@ function genEn() {
   push("## Community");
   push();
   push("- [dsh-plugin topic on GitHub](https://github.com/topics/dsh-plugin) — DeepSeek Harness Cordis plugin repositories on GitHub.");
-  push("- [Submit a plugin](https://cordis.run/plugins/submit) — list your DeepSeek Harness plugin on cordis.run.");
+  push("- [Submit a plugin](https://cordis.run/submit) — list your DeepSeek Harness plugin on cordis.run.");
   push("- [Report a security issue](https://github.com/web-casa/Awesome-DeepSeek-Harness-Plugins/security) — responsible disclosure.");
   push();
   push("---");
@@ -256,7 +256,7 @@ function genZh() {
   push("## 社区");
   push();
   push("- [GitHub dsh-plugin topic](https://github.com/topics/dsh-plugin) — GitHub 上的 DeepSeek Harness Cordis 插件仓库。");
-  push("- [提交插件](https://cordis.run/plugins/submit) — 把你的 DeepSeek Harness 插件上架到 cordis.run。");
+  push("- [提交插件](https://cordis.run/submit) — 把你的 DeepSeek Harness 插件上架到 cordis.run。");
   push("- [报告安全问题](https://github.com/web-casa/Awesome-DeepSeek-Harness-Plugins/security) — 负责任披露。");
   push();
   push("---");

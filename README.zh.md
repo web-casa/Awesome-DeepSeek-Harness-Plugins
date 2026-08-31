@@ -412,7 +412,7 @@
 ## 社区
 
 - [GitHub dsh-plugin topic](https://github.com/topics/dsh-plugin) — GitHub 上的 DeepSeek Harness Cordis 插件仓库。
-- [提交插件](https://cordis.run/plugins/submit) — 把你的 DeepSeek Harness 插件上架到 cordis.run。
+- [提交插件](https://cordis.run/submit) — 把你的 DeepSeek Harness 插件上架到 cordis.run。
 - [报告安全问题](https://github.com/web-casa/Awesome-DeepSeek-Harness-Plugins/security) — 负责任披露。
 
 ---

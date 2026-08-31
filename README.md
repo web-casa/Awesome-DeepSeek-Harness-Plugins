@@ -413,7 +413,7 @@ and `dsh.bundle` declaration, listed on [cordis.run](https://cordis.run).
 ## Community
 
 - [dsh-plugin topic on GitHub](https://github.com/topics/dsh-plugin) — DeepSeek Harness Cordis plugin repositories on GitHub.
-- [Submit a plugin](https://cordis.run/plugins/submit) — list your DeepSeek Harness plugin on cordis.run.
+- [Submit a plugin](https://cordis.run/submit) — list your DeepSeek Harness plugin on cordis.run.
 - [Report a security issue](https://github.com/web-casa/Awesome-DeepSeek-Harness-Plugins/security) — responsible disclosure.
 
 ---
