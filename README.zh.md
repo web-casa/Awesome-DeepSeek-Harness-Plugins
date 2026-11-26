@@ -75,10 +75,10 @@
 | [@jinhuang712/dsh-survey](https://github.com/jinhuang712/dsh-survey) | 面向DeepSeek Harness的问卷式调查插件：do_a_survey工具可一次提出1-10+个问题（单选/多选/是否/对比/开放类型），支持四种呈… | [🔗](https://cordis.run/plugins/dsh-survey) |
 | [shopline-ai-toolkit-dsh](https://github.com/lunw/shopline-ai-toolkit-dsh) | SHOPLINE AI Toolkit for DeepSeek Harness (DSH)：连接官方 SHOPLINE Developer MCP 服务… | [🔗](https://cordis.run/plugins/shopline-ai-toolkit-dsh) |
 | [@deepseek-ai/dsh-tool-stat](https://github.com/omdsh-dev/dsh-tool-stat) | DSH 统计工具：对显式有限数值数组执行描述、百分位、频率与相关性分析；零依赖，结果确定且数值稳定（Neumaier求和 + Welford方差 + 线性… | [🔗](https://cordis.run/plugins/deepseek-ai-dsh-tool-stat) |
+| [dsh-find-skill](https://github.com/Moximxxx/dsh-find-skill) | 将 vercel-labs/skills 生态接入 dsh：LLM 驱动的技能搜索、安装与生命周期管理，支持临时/项目/全局范围 | [🔗](https://cordis.run/plugins/dsh-find-skill) |
 | [dsh-tool-chaos](https://github.com/cyanseek/dsh-tool-chaos) | 为 DeepSeek Harness 工具流水线提供确定性故障注入、自主韧性实验和机器可读证据 | [🔗](https://cordis.run/plugins/dsh-tool-chaos) |
 | [@jiesou/dsh-stream-rules](https://github.com/jiesou/dsh-stream-rules) | 按需注入规则，不浪费上下文 | [🔗](https://cordis.run/plugins/dsh-stream-rules) |
 | [@deepseek-ai/dsh-qwen-mm](https://github.com/omdsh-dev/Qwen-MM-Plugins) | Qwen-MM 能力以运行时获取的 Agent 技能和严格的 MCP 工具服务器形式提供 | [🔗](https://cordis.run/plugins/deepseek-ai-dsh-qwen-mm) |
-| [dsh-find-skill](https://github.com/Moximxxx/dsh-find-skill) | 将 vercel-labs/skills 生态接入 dsh：LLM 驱动的技能搜索、安装与生命周期管理，支持临时/项目/全局范围 | [🔗](https://cordis.run/plugins/dsh-find-skill) |
 | [dsh-webbridge](https://github.com/bill9109/dsh-webbridge) | @bill9109/dsh-webbridge 是 DeepSeek Harness 的 Kimi WebBridge 宿主插件：通过本地 kimi-we… | [🔗](https://cordis.run/plugins/bill9109-dsh-webbridge) |
 | [@detpecca/dsh-llm-wiki](https://github.com/detpecca/dsh-llm-wiki) | DeepSeek Harness 插件 — 由智能体管理 LLM-Wiki 知识库：wiki_search / wiki_read / wiki_stat… | [🔗](https://cordis.run/plugins/detpecca-dsh-llm-wiki) |
 | [@dsh-voice/bundle](https://github.com/Jesse-njx/dsh-voice) | dsh-voice —— 语音输入，语音输出：口述音频转为用户消息（转写），让智能体朗读回复（播报），并在长时间无头运行时留下离场旁白 | [🔗](https://cordis.run/plugins/dsh-voice-bundle) |
