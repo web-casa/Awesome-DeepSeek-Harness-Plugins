@@ -77,10 +77,10 @@
 | [@deepseek-ai/dsh-tool-stat](https://github.com/omdsh-dev/dsh-tool-stat) | DSH 统计工具：对显式有限数值数组执行描述、百分位、频率与相关性分析；零依赖，结果确定且数值稳定（Neumaier求和 + Welford方差 + 线性… | [🔗](https://cordis.run/plugins/deepseek-ai-dsh-tool-stat) |
 | [dsh-find-skill](https://github.com/Moximxxx/dsh-find-skill) | 将 vercel-labs/skills 生态接入 dsh：LLM 驱动的技能搜索、安装与生命周期管理，支持临时/项目/全局范围 | [🔗](https://cordis.run/plugins/dsh-find-skill) |
 | [dsh-tool-chaos](https://github.com/cyanseek/dsh-tool-chaos) | 为 DeepSeek Harness 工具流水线提供确定性故障注入、自主韧性实验和机器可读证据 | [🔗](https://cordis.run/plugins/dsh-tool-chaos) |
+| [@detpecca/dsh-llm-wiki](https://github.com/detpecca/dsh-llm-wiki) | DeepSeek Harness 插件 — 由智能体管理 LLM-Wiki 知识库：wiki_search / wiki_read / wiki_stat… | [🔗](https://cordis.run/plugins/detpecca-dsh-llm-wiki) |
 | [@jiesou/dsh-stream-rules](https://github.com/jiesou/dsh-stream-rules) | 按需注入规则，不浪费上下文 | [🔗](https://cordis.run/plugins/dsh-stream-rules) |
 | [@deepseek-ai/dsh-qwen-mm](https://github.com/omdsh-dev/Qwen-MM-Plugins) | Qwen-MM 能力以运行时获取的 Agent 技能和严格的 MCP 工具服务器形式提供 | [🔗](https://cordis.run/plugins/deepseek-ai-dsh-qwen-mm) |
 | [dsh-webbridge](https://github.com/bill9109/dsh-webbridge) | @bill9109/dsh-webbridge 是 DeepSeek Harness 的 Kimi WebBridge 宿主插件：通过本地 kimi-we… | [🔗](https://cordis.run/plugins/bill9109-dsh-webbridge) |
-| [@detpecca/dsh-llm-wiki](https://github.com/detpecca/dsh-llm-wiki) | DeepSeek Harness 插件 — 由智能体管理 LLM-Wiki 知识库：wiki_search / wiki_read / wiki_stat… | [🔗](https://cordis.run/plugins/detpecca-dsh-llm-wiki) |
 | [@dsh-voice/bundle](https://github.com/Jesse-njx/dsh-voice) | dsh-voice —— 语音输入，语音输出：口述音频转为用户消息（转写），让智能体朗读回复（播报），并在长时间无头运行时留下离场旁白 | [🔗](https://cordis.run/plugins/dsh-voice-bundle) |
 | [dsh-book2skill](https://github.com/omdsh-dev/dsh-book2skill) | DSH book-to-skill 插件：一个 5 阶段长任务（获取 → 解析 → 理解 → 生成 → 安装），含 3 个人工审核关卡，为代理提供宿主工具… | [🔗](https://cordis.run/plugins/dsh-book2skill) |
 | [@deepseek-ai/dsh-tool-csv](https://github.com/omdsh-dev/dsh-tool-csv) | DSH CSV 数据工具：对 RFC 4180 CSV 文本进行解析、查询与统计，零依赖的状态机解析器 | [🔗](https://cordis.run/plugins/deepseek-ai-dsh-tool-csv) |
@@ -215,11 +215,11 @@
 | [task-passport](https://github.com/dongsheng123132/task-passport) | 开放任务交接协议及本地存储，用于跨AI工具链的持久状态管理 | [🔗](https://cordis.run/plugins/task-passport) |
 | [dsh-comfyui-canvas](https://github.com/wbin0001/dsh-comfyui-canvas) | Give DeepSeek Harness agents live control of your ComfyUI canvas (local or cl… | [🔗](https://cordis.run/plugins/dsh-comfyui-canvas) |
 | [@dsh-external/dsh-split-panes](https://github.com/lehhair/dsh-split-panes) | DSH 分栏对话插件：PiUI 风格的多窗格对话界面 —— 支持分栏/堆叠窗格、每窗格会话、侧边栏会话拖放、单行融合页头 | [🔗](https://cordis.run/plugins/dsh-external-dsh-split-panes) |
+| [@dsh-cowork/chatnode-wechat](https://github.com/Jesse-njx/dsh-chatnode-wechat) | 通过微信与DSH智能体聊天、监控和审批——用于DeepSeek Harness的iLink网关+对话节点捆绑包 | [🔗](https://cordis.run/plugins/dsh-cowork-chatnode-wechat) |
 | [@vlln/dsh-task-status](https://github.com/vlln/dsh-task-status) | 后台任务状态条——对话输入区上方的任务进度 UI（官方 dock 槽 + Node 轮询路由） | [🔗](https://cordis.run/plugins/dsh-external-dsh-task-status) |
 | [dsh-huadong-bianzuqi](https://github.com/zjl88858/dsh-huadongbianzuqi) | DeepSeek Harness 前端插件：滑动变阻器 | [🔗](https://cordis.run/plugins/dsh-huadong-bianzuqi) |
 | [dsh-diff-stat](https://github.com/haoyueqin/dsh-diff-stat) | Inline +N −M diff badges on edit/write tool rows and a per-turn file change s… | [🔗](https://cordis.run/plugins/dsh-diff-stat) |
 | [dsh-session-hub](https://github.com/Asaiuta/dsh-session-hub) | 在单个面板中聚合并原生控制多个远程 dsh Web 服务器上的 DeepSeek Harness 会话：服务器注册、合并会话列表、历史记录、提示、取消、重… | [🔗](https://cordis.run/plugins/dsh-session-hub) |
-| [@dsh-cowork/chatnode-wechat](https://github.com/Jesse-njx/dsh-chatnode-wechat) | 通过微信与DSH智能体聊天、监控和审批——用于DeepSeek Harness的iLink网关+对话节点捆绑包 | [🔗](https://cordis.run/plugins/dsh-cowork-chatnode-wechat) |
 | [@loserfox/telegram](https://github.com/LoserFox/telegram) | Telegram Bot API 桥接插件：将 Telegram 聊天中继至 harness agent 会话（长轮询、按聊天隔离会话、HTML 格式化） | [🔗](https://cordis.run/plugins/loserfox-telegram) |
 | [@dsh-external/dsh-inspect](https://github.com/omdsh-dev/dsh-inspect) | 发现问题 → 修复交付 → 质量复查 的简单闭环插件：checkup（对抗式检查+红队验证）/ fix（根因→修复→验证）/ review（对抗式复查）三… | [🔗](https://cordis.run/plugins/dsh-external-dsh-inspect) |
 | [dsh-web-archive](https://github.com/renat3u/dsh-web-archive) | DSH Web 客户端插件：将会话中非正文的工具卡片（read/think/bash/...）收拢折叠为输入框上方一个可展开的 "Deep Sleepin… | [🔗](https://cordis.run/plugins/dsh-web-archive) |
@@ -321,10 +321,10 @@
 | [@huanlin/dsh-plugin-ya-workspace-sidebar](https://github.com/HuanLinOTO/dsh-plugin-ya-workspace-sidebar) | 两级 DSH 工作区侧边栏，含全局最近会话与面包屑导航 | [🔗](https://cordis.run/plugins/huanlin-dsh-plugin-ya-workspace-sidebar) |
 | [dsh-superpowers](https://github.com/codeAnqiang-ma/dsh-superpowers) | dsh-superpowers：DeepSeek Harness 的 Superpowers（obra/superpowers）插件，包含软件开发方法论技… | [🔗](https://cordis.run/plugins/dsh-superpowers) |
 | [dsh-acp-for-bitfun](https://github.com/bobleer/dsh-acp-for-bitfun) | BitFun 与 DSH ACP 交互对接插件：通过 Agent Client Protocol 将 BitFun agent（https://githu… | [🔗](https://cordis.run/plugins/dsh-acp-for-bitfun) |
+| [codex-plugin-dsh](https://github.com/wingoo/codex-plugin-dsh) | DeepSeek Harness 的 Codex App Server 模型提供器插件 | [🔗](https://cordis.run/plugins/codex-plugin-dsh) |
 | [@huanlin/dsh-plugin-auto-blame](https://github.com/HuanLinOTO/dsh-plugin-auto-blame) | Auto-blame：当一轮对话结束时，向 LLM 请求三个毒舌的后续提示，并以点击即可发送的气泡形式显示在输入框上方 | [🔗](https://cordis.run/plugins/huanlin-dsh-plugin-auto-blame) |
 | [@huanlin/dsh-plugin-interpreters](https://github.com/HuanLinOTO/dsh-plugin-interpreters) | 提供 run_python 和 run_node 工具，支持配置解释器路径；设置卡片（通过 /interpreters/api HTTP 路由）让用户设定… | [🔗](https://cordis.run/plugins/huanlin-dsh-plugin-interpreters) |
 | [nowledge-mem-deepseek-harness](https://github.com/nowledge-co/nowledge-mem-deepseek-harness) | 用于 Nowledge Mem 的社区 DeepSeek Harness 捆绑包：Context Bundle、提示时召回、Mem MCP 工具和 DSH… | [🔗](https://cordis.run/plugins/nowledge-mem-deepseek-harness) |
-| [codex-plugin-dsh](https://github.com/wingoo/codex-plugin-dsh) | DeepSeek Harness 的 Codex App Server 模型提供器插件 | [🔗](https://cordis.run/plugins/codex-plugin-dsh) |
 | [@zerohackz/dsh-openflowframes](https://github.com/ZeroHackz/OpenFlowFrames) | DeepSeek Harness 插件，将 OpenFlowFrames 视频帧插值（RIFE）封装为智能体工具 | [🔗](https://cordis.run/plugins/zerohackz-dsh-openflowframes) |
 | [@huanlin/dsh-plugin-d399](https://github.com/HuanLinOTO/dsh-plugin-d399) | 贪玩蓝鲸 — 模型生成时右下角弹出小游戏菜单（wordle / 消消乐，可拓展游戏注册表） | [🔗](https://cordis.run/plugins/huanlin-dsh-plugin-d399) |
 | [@huanlin/dsh-plugin-sleep](https://github.com/HuanLinOTO/dsh-plugin-sleep) | DSH 插件，提供单一的 `sleep` 工具，让模型可按配置的毫秒数暂停，并支持取消 | [🔗](https://cordis.run/plugins/huanlin-dsh-plugin-sleep) |
